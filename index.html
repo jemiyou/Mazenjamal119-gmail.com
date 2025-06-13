@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dancing Banana Club</title>
+    <style>
+        body {
+            background: linear-gradient(45deg, #ffeb3b, #ff9800);
+            margin: 0;
+            padding: 20px;
+            font-family: Comic Sans MS, cursive;
+            text-align: center;
+            overflow-x: hidden;
+        }
+        .banana {
+            font-size: 80px;
+            animation: dance 1s infinite alternate;
+            margin: 20px;
+        }
+        @keyframes dance {
+            0% { transform: rotate(-10deg) scale(1); }
+            100% { transform: rotate(10deg) scale(1.1); }
+        }
+        h1 {
+            color: #8b4513;
+            text-shadow: 2px 2px 4px yellow;
+            font-size: 3em;
+        }
+        .facts {
+            background: rgba(255,255,255,0.8);
+            border-radius: 20px;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 500px;
+        }
+        .member-btn {
+            background: #ff6b6b;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 50px;
+            font-size: 20px;
+            cursor: pointer;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🍌 DANCING BANANA CLUB 🍌</h1>
+    <div class="banana">🍌</div>
+    <div class="banana">🍌</div>
+    <div class="banana">🍌</div>
+    
+    <div class="facts">
+        <h2>Silly Banana Facts!</h2>
+        <p>• Bananas are berries but strawberries aren't!</p>
+        <p>• A group of bananas is called a "hand"</p>
+        <p>• Bananas are naturally radioactive ☢️</p>
+        <p>• Banana peels can make you slip into happiness!</p>
+    </div>
+    
+    <button class="member-btn">Join the Peel Squad!</button>
+    <button class="member-btn">Banana News</button>
+    
+    <p style="color: #8b4513; font-size: 18px;">🎵 Peanut butter jelly time! But make it BANANA time! 🎵</p>
+</body>
+</html>
